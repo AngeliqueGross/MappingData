@@ -35,7 +35,7 @@ function preload() {
 
 function setup() {
   console.log(states.states);
-  canvas = createCanvas(800, 600);
+  canvas = createCanvas(windowWidth, windowHeight);
 
   mappa = new Mappa("Leaflet");
   hateMap = mappa.tileMap(options);
